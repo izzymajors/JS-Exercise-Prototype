@@ -100,10 +100,14 @@ console.log(Person);
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. Window/Global Object Binding
-    2. Implicit Binding
-    3. New binding
-    4. Explicit binding
+
+    1. Window/Global Object Binding In a JavaScript function, the owner of the function is the default binding for this. So, in a function, this refers to the Global object [object Window].
+
+    2. Implicit Binding all a function and when the function is invoked, look to the left of the dot, and that is what the this-keyword is going to reference
+
+    3. New binding The new keyword is used in javascript to create a object from a constructor function.
+
+    4. Explicit binding In JavaScript, binding is always explicit, and can easily be lost, so a method using this will not refer to the proper object in all situations, unless you force it to
   */
   
   
