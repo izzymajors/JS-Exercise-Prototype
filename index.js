@@ -43,9 +43,13 @@ function Airplane(name) {
     this.name = name,
     this.age = age,
     this.stomach = []
-    
- }
+    }
+Person.prototype.eat = function(){
 
+}
+Person.prototype.poop = function(){
+  
+}
   
 console.log(Person);
 
